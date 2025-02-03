@@ -48,7 +48,7 @@ System.out.println(resCode);
 		 a.click(product).perform();
 		 Set<String> links=driver.getWindowHandles();
 		 Iterator<String> it1=links.iterator(); 
-			
+			System.out.println("Done");
 		// a.scrollFromOrigin(null, 0, 0);
 
 	}
